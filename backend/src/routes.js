@@ -1,5 +1,6 @@
 const express = require('express');
 const DevController = require('./controllers/DevController');
+const LikeController = require('./controllers/LikeController');
 
 
 
@@ -10,5 +11,6 @@ routes.get('/', (req, resp) => {
 })
 
 routes.post('/devs', DevController.store);
+routes.post('/devs/:devId/likes', LikeController.store);
 
 module.exports = routes;
