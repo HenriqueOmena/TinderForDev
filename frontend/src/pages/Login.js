@@ -5,8 +5,13 @@ import logo from '../assets/logo.svg'
 
 function Login() {
     return (
-
-        <img src={logo} alt="tinDev" />
+        <div className="login-container">
+            <form>
+                <img src={logo} alt="tinDev"></img>
+                <input type="text" placeholder="Digite Utilizador  Github"/>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     );
 }
 
