@@ -24,7 +24,7 @@
 
 .main-container ul li footer {
     flex: 1;
-    background-attachment: #fff;
+    background: #fff;
     border: 1px solid #eee;
     padding: 15px 20px;
     text-align: left;
